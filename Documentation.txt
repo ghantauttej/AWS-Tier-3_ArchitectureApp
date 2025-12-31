@@ -1,6 +1,6 @@
 3 Tier Project
 ---------------------------
-GitHub URL: https://github.com/KastroVKiran/3TierArchitectureApp.git
+GitHub URL: https://github.com/ghantauttej/AWS-Tier-3_ArchitectureApp.git
 
 *******************************************
 Steps for Setting Up the Project Infrastructure
@@ -35,7 +35,7 @@ Go into the following path of cloned code "application-code/app-tier/DbConfig.js
 module.exports = Object.freeze({
     DB_HOST: 'YOUR-DATABASE-ENDPOINT.ap-south-1.rds.amazonaws.com',
     DB_USER: 'admin',
-    DB_PWD: 'kastro2025',
+    DB_PWD: 'uttej123',
     DB_DATABASE: 'webappdb'
 });
 
@@ -55,7 +55,7 @@ sudo yum install mysql -y
 
 Configure MySQL Database
 Connect to the database and perform basic configuration: Replace below info with your DB information
-mysql -h <DB EndPoint> -u admin -p ----> Enter the Password i.e kastro2025 (this is DB password). If you couldn't connect, there is a problem with the SG of the DB.
+mysql -h <DB EndPoint> -u admin -p ----> Enter the Password i.e uttej123 (this is DB password). If you couldn't connect, there is a problem with the SG of the DB.
 
 Ex: mysql -h database-1.c380a08uukyc.ap-south-1.rds.amazonaws.com -u admin -p
 
